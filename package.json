@@ -1,0 +1,33 @@
+{
+  "name": "phonebook-backend",
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ."
+  },
+  "author": "Khai",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^6.2.1",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.9.0",
+    "nodemon": "^2.0.15"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/e1900303/fullstackopen_part3.git"
+  },
+  "bugs": {
+    "url": "https://github.com/e1900303/fullstackopen_part3/issues"
+  },
+  "homepage": "https://github.com/e1900303/fullstackopen_part3#readme",
+  "description": ""
+}
